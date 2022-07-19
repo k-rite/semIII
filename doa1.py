@@ -1,6 +1,4 @@
 import os
-
-from sqlalchemy import true
 stack = []
 size=3
 def push(a):
