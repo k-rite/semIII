@@ -1,0 +1,37 @@
+> Mobile Device Security:
+    * Agenda
+        - Physical Security, wireless , data-level, application-level
+
+> Physical Security:
+- Movile devices get stolen daily.
+- Rising crime, jespecially laptops.
+- WEak Software protection
+    * Static password/PIN number
+
+- Several methods in the market:
+    * Physical tether lock.
+    * RFID proximity Technology.
+    * Deactivate SIM card
+
+> Wireless Security
+    - Many wireless technologies used by the mobiel devies.
+    - GSM, RFID, Bluetooth, Wi-Fi, Infrared.
+    - Most technology have their own flavor of authentication methods.
+
+    > Bluetooth
+        - authentication by PIN numbers and device address.
+        - Generates the same number individually and compare in order to generate a key.
+        - Implementation weak on mobile devices.
+    > GSM
+        - Uses A5/1 (and A5/2) for encription to ensure privacy.
+        - Algorithm is considered weak and able to break.
+
+
+
+exercise/assignment:
+- consider a sceneria;
+- any task that can be done online online , like streaming, video call. what are mobile devices required for this.
+- What are the softwares and etc required for that task.
+- What are the different challenges and solutions to those challenges for the chosen task.
+
+

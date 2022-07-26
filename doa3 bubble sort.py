@@ -1,4 +1,4 @@
-list,swap,iterations = [6,2,11,7,5],0,0
+list,swap,iterations = [8,3,2,7,9,1,4],0,0
 def sort(a):
     global swap #to overwite swap variable in def()
     try:# iterations

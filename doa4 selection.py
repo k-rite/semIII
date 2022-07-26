@@ -1,4 +1,14 @@
-list,swap = [6,2,11,7,5],0
+# Selection Sort Algorithm
+# 1. While check weather list is sorted or not
+#     a. If sorted then it displays the answer
+#     b. Step1: FINd the minimum element of the list
+#        Step2: Check weather list is ascending order(0-9), 
+#        Step3: Wherever the element is not sorted, it will swap with minimum element of the list
+#        Step4: For every Swap done, Swap var gets +1
+#        Step4: Keeps on doing it, once list is sorted it will break the loop and show the answer 
+#        and number of swaps
+list,swap = [8,3,2,7,9,1,4],0
+print(list)
 solution = sorted(list)
 def sort(a):
     global swap #to overwite swap variable in def()
