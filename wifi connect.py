@@ -22,9 +22,10 @@ try:
         x, y = pyautogui.position()
         positionStr = 'X: ' + str(x).rjust(4) + ' Y: ' + str(y).rjust(4)
         print(positionStr, end='')
-        print('\b' * len(positionStr), end='', flush=True)
+        print('\b' * len(positionStr), end='', flush=T
+rue)
 except KeyboardInterrupt:
     print('\n')
-#X:  957 Y:  651 | gmail
-#X: 1720 Y: 1051
-#x: 
+X:  957 Y:  651 | gmail
+X: 1720 Y: 1051
+x: 

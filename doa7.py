@@ -4,7 +4,7 @@ msg = []
 solution=sorted(list)
 def mover(a):
     try:
-        if list[a] > list[a+1]:
+        while list[a] > list[a+1]:
             list[a],list[a+1] = list[a+1],list[a]
             if list[a-1]>list[a]:
                 if list[a-1] == list(len(list)):
@@ -12,11 +12,8 @@ def mover(a):
             else:
                 mover(a-1)
         else:
-            b=0
-            if list[b] < list[b+1]:
-                c = str(list)
-                if c not in msg:
-                    msg.append(c)
+            if list[a] > list[a+1]:
+                
             mover(a+1)
     except:
         pass
