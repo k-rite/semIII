@@ -1,6 +1,7 @@
 #from django.shortcuts import render
 from django.http import HttpResponse
 from django.template import loader
+from .models import Members
 def greet(request):
     html = "<html><body><h1>Welcome to my 1st project</h1></body></html>"
     return HttpResponse(html)
