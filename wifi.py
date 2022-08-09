@@ -28,10 +28,11 @@
 # X:  957 Y:  651 | gmail
 # X: 1720 Y: 1051
 # x: 580
+
 import cv2
 import time
 import pyautogui as pg
-a = pg.locateOnScreen(r'C:\Users\KRITESH OJHA\Desktop\wifiauto\1.jpg', confidence=0.9)
+a = pg.locateOnScreen('1.jpg', confidence=0.9)
 if a!= None:
 	print(a[0])
 	print(type(a))
@@ -40,15 +41,15 @@ pg.click(a)
 time.sleep(2)
 pg.click(x=1561,y=550)
 time.sleep(1)
-b = pg.locateOnScreen(r'C:\Users\KRITESH OJHA\Desktop\wifiauto\3.jpg', confidence=0.9)
+b = pg.locateOnScreen('3.jpg', confidence=0.9)
 pg.click(b)
 time.sleep(2)
-c = pg.locateOnScreen(r'C:\Users\KRITESH OJHA\Desktop\wifiauto\4.jpg', confidence=0.9)
+c = pg.locateOnScreen('4.jpg', confidence=0.9)
 pg.click(c)
 time.sleep(8)
 pg.click(x=970,y=707)
 time.sleep(2)
-d = pg.locateOnScreen(r'C:\Users\KRITESH OJHA\Desktop\wifiauto\6.jpg', confidence=0.9)
+d = pg.locateOnScreen('6.jpg', confidence=0.9)
 pg.click(d)
 time.sleep(1)
 pg.hotkey("Enter")
