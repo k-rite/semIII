@@ -1,5 +1,5 @@
-list = [1,3,3,5,6]
-res  = [*set(list)]
-list = res
-print(res)
-print(list)
+import requests
+x = requests.get('http://www.boredapi.com/api/activity/')
+y=x.text
+print(y)
+# education", "recreational", "social", "diy", "charity", "cooking", "relaxation", "music", "busywork"
