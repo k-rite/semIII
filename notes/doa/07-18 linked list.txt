@@ -1,0 +1,28 @@
+=============================================
+LINked list
+=============================================
+Series of connected nodes
+    each node consists of data feilds and or one or more 
+    allocate memory dynamically | non-contiguous | Fast operations 
+
+
+Data             | link              | empty feilds
+actual value      add of nxt node          if nodes r not present
+
+single  | double 
+        |   reserve traversal
+
+circular | last node is 1st node 
+
+
+Operations | isempty,inserstion,findnode,deletenode,
+================================================
+Algorithms 
+================================================
+Inserstion
+    Beginning of the node 
+        checks the head of the list
+        insert it therefore
+    in between the
+
+Deletion 

@@ -1,0 +1,23 @@
+=================================================================
+Revision
+=================================================================
+Data structure:
+	collection of data in organised way,
+
+Types of DS:
+	Linear	| Direct(Homo Components, hetro components), Sequential() | Array, Linked list
+	Non-Linear  | Set(tree,array)
+
+Diff Opperation on DS | Insertion, Deletions, etc
+
+====================================================================
+Stacks | LIFO | Linear | OPeration(create,push,pop,top,empty)
+
+Representation of stack:
+	1-D ARRAY Single linked list
+
+================================================================
+Algorithm
+Create/check a stack check weather stack is full/empty
+
+push the element

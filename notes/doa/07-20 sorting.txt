@@ -1,0 +1,48 @@
+===========================================
+sorting 
+===========================================
+arrange systematically | (list | collection of records)
+ascending,descending
+types | bubble,selection,merge,insertion,heap
+complexity | time to code | time to run | memory to code
+efficiency | best,worst, average case
+=================================================
+bubble 
+=================================================
+arrange N elements in ascending order
+start with 0th element and compare with adj element
+swap if 0>1
+------------
+Example:
+1st iterration:
+5 4 3 2 1 
+4 5 3 2 1 
+4 3 5 2 1 
+4 3 2 5 1 
+4 3 2 1 5
+        2nd iteration:
+        3 2 1 5 4 
+                    3rd iteration
+                    2 1 5 4 3 
+                                4th iteration
+                                1 5 4 3 2 
+                                            5th iteration
+                                            5 4 3 2 1 
+Number of iterations took to bubble sort: 5
+-----------
+Example 2:
+1st iteration:
+4 9 5 1 0
+4 5 9 1 0
+4 5 1 9 0 
+4 5 1 0 9  
+            2nd iteration:
+            4 1 0 5 9  
+                            3rd iteration:
+                            1 0 4 5 9
+                                            4th iteration:
+                                            0 1 4 5 9
+Number of iterations took to bubble sort: 4
+=================================================
+
+=================================================

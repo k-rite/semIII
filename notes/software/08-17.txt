@@ -1,0 +1,27 @@
+process is nothin but methodlogy define to perform one or more operations on the input data
+it is also know as black box process as only the input and output are more. 
+the inner working of the process are not defined.
+
+Flow/arrow :
+    which tell you about what input, what output is generated, through and from the process.
+
+Data store:
+    they r used in dfd, to represent the data store by the system 
+    as one or more processes neeed to use the data at a later stage.
+    it may be a output but can be a input to the other process 
+
+Entity:
+    consists of attributes and it has real world objects and it is also known as terminator
+    As it can be origin of data and final destination of data.
+
+Adv | Freedom from commiting to the technical | 
+    |understanding of interrelatedness of system and subsystems
+    | Communicationg current sys knowledge with data Flow
+
+Context:  
+    |It is the 1st diagram of DFD, It helps system analysist to understand the basic data movement
+    |It should be an overview containing a single process and basic input and output.
+    |It is also know as highest level diagram.
+    |Only external entities are included in the diagram, Data stores are not used in context level.
+    |It is numbered as 0.
+    |The process name is whole system name.

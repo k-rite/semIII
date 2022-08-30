@@ -1,0 +1,5 @@
+1. Select a pivot element
+2. start and check with pointer weather number is smaller or larger than the pivot element
+3. Swap smaller element with larger elements untill pivot element will be larger than smaller element and smaller than larger element.
+4. breaks the list into 2 sub elements and repeat step 1-2-3-4 untill list is sorted.
+5. Combine the list back together and return it

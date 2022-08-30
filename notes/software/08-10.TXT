@@ -1,0 +1,9 @@
+Gas and electricity supply gases and electicity to customer. 
+Monthly bill gets generated for gases and electrivity seperately. 
+Basic amount 1000rs is consider for every day. 
+Now bill amount depends upon total number of units consumed.
+like if total number of consumed are:
+
+<50 only basic amount is charged
+50<100 basic amount + (total units*10rs)
+100+ (total units * 20) + basic amount

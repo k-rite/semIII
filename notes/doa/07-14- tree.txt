@@ -1,0 +1,39 @@
+===============================================================
+Trees
+===============================================================
+non liner | root | subtree | 
+Two types of treees | Tree / Binary |
+
+Node : Each data in tree
+Root: NO parent topmost
+Child Node : 
+leaf node: Last node of a tree
+
+================================================================
+Non Terminal  : no child
+Leaf Terminal : any node whose degreee is not zero
+Siblings	  : Node with same parents
+
+================================================================
+Level of a tree: root node is level 0
+
+Edge : line connects tree
+Path : sequencial of consecutive edges from souce to the destination
+
+===============================================================
+
+inorder:
+abdcegfhi
+
+postorder
+
+#ihfgecdba
+bdagecfhi
+
+=============================================================
+1 a+b*c
+		+
+a				*
+		b				c
+
+2. a/b+c

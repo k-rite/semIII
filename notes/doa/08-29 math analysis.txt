@@ -1,0 +1,28 @@
+====================================
+Mathematical Ananlysis
+====================================
+Theoretical (Priori Analysis) | Summation,Recurrence Relation
+Empirical (Posterior Analysis) | random input then measure acurate time taken
+
+General Rule
+n {Order of Magnitude} | Basic Operation | Best Case/Worse Case for n | C(n)  count | Solving Summation
+
+T(n) = C(n)
+Upper bound -l+1 = 
+n^2 = n(n+1)/2 ----------------------------------------------{IMPORTANT}
+Find max element in a list:
+                            max = 0                       c(1)
+                            for i in list:                c(n)
+                                if max > i:
+                                    max = i
+                                else:
+                                    pass        
+                            return max
+
+n |for loop, if else statement | no case |  C(1) C(n) | C(n) 
+
+
+list,newlist = [3,5,6,6,7],[]
+for i in list:
+    if i not in newlist:newlist.append(i)
+    else:print(f'{i} is a duplicate')

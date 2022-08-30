@@ -1,0 +1,39 @@
+========================================================
+insertion sort
+========================================================
+starts with 2nd element
+Comparision gets done left side
+key element > 1st:
+    insert key before 1st
+key element < 1st:
+    insert key after 1st
+3rd will be key element
+====================================================
+
+5 1 6 2 4 3 
+
+1 5 6 2 4 3 
+1 2 5 6 4 3
+1 2 4 5 6 3
+1 2 3 4 5 6
+Swaps: 4
+
+8,3,2,7,9,1,4 | 8 3 2 7 9 1 4| 3 8 2 7 9 4 | 2 3 8 7 9 4 | 2 3 7 8 9 4 | 2 3 4 7 8 9 
+-------------
+3,8,2,7,9,1,4
+2,3,8,7,9,1,4
+2,3,7,8,9,1,4
+1,2,3,7,8,9,4
+1,2,3,4,7,8,9
+Swaps 5
+
+Algorithm:
+    Selects the second element of the list
+    compares with the previous element
+        if value is smaller than previous elements then
+            insert it in order
+        if value is larger than previous then
+            no change 
+            select the adj element
+
+    

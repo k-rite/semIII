@@ -1,0 +1,4 @@
+Algorithm | set of instructions
+Good algo | ez to understand, simple, update
+
+Analysis | INefficient | large database

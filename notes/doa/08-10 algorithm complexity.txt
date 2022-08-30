@@ -1,0 +1,8 @@
+Analysis of Algorithm by Donald Knuth
+-------------------------------------
+Time | Size  
+Worst | Best | Average Case- Number of steps
+Asymptomatic | f(n) n gets large
+Slower the Asymptomatic Better the Algorithm
+
+Algorithm Complexity | Number of steps req to execute a algo

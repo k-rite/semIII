@@ -1,0 +1,4 @@
+1.Dist/Cust
+2.Warehouse
+3.Product/items
+4.Bill

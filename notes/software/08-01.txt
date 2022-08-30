@@ -1,0 +1,9 @@
+Questions for Hostpital Management System:
+1. Free
+medical details
+departments
+staffs access
+2. Fixed
+range of patient over month
+auto medical
+past records hard/soft

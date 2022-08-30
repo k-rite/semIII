@@ -1,0 +1,21 @@
+===================================
+Advantages of Prototype Model
+===================================
+	1. Reduce the risk of wrong
+	2. It is good when requirements are changing
+	3. Regular visual process aids management
+	4. Support early product marketting
+	5. Reduce maintence cost
+	6. Errors can be detected much earlier
+
+=====================================
+Disadvantages of Prototype Model
+=====================================
+	1. Unstable or badly implemented prototype is created
+	2. Require extension cust collab
+	3. Difficult to know how long the project will last
+	4. Prototyping tools are expensive
+	5. Time consuming
+============================================================
+Write down the requiements for e learning in primary students
+============================================================

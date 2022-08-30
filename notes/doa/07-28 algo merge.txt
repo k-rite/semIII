@@ -1,0 +1,8 @@
+Algorithm of Merge Sort
+1. Start
+2. Fetch the number of elements in the list
+3. Divide the list in to smaller sub list by dividing into 2 sublist
+    a. If the sublist is odd then add 1 element in new sublist
+4. Loop steps 2,3 until every element is in seperate sublist respectively
+5. Merge the sublist and sort them iteration by iteration.
+6. keep on repeating step 5 until all sublists are combined to one.

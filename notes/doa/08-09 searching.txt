@@ -1,0 +1,19 @@
+2,5,8,12,16,23,38,56,72,91 {Binary Search}
+Start: 2 | 1
+Last: 91 | 10
+Middle: 23 | 5
+2,5,8,12,16   23  38,56,72,91
+-----------------------------------------
+1,5,7,8,13,19,20,23,29 (13)
+mid: 13
+1,5,7,8
+1, 5 (mid),7,8
+5-7
+-----------------------------------------
+Algorithm:
+-----------------------------------------
+Find the middle element of the list.
+Divide the list into two sublist
+Check weather the element you're searching for is in first sublist or second one.
+select the middle most in sublist where the element you're seaching for falls.
+Repeat 3 and 4 until element is found

@@ -1,0 +1,28 @@
+Big O notation | Array,push and pop,enqueue and dequeue  
+__________________________________________________________
+for(i=0;i<=n;i++):   O(n)
+    {
+        C=A+B        O(1)
+    }
+O(n) | linear  
+-----------------
+for (i=0;i<=n;i++)          O(n)
+    for (j=0;j<=n;j++)      O(n)
+        {c=a+b}             O(1)
+
+O(n) O(n) O(1)
+O(n^2) | Quadratic 
+-----------------
+long SumMN(int n,int m)
+{
+    long sum=0;
+    for (int x=1;x<n;x++)
+    {
+        for(int y=1;y<m;y++)
+        {
+            sum+=x*y;
+        }
+    }
+}
+Linear 
+----------------

@@ -1,0 +1,19 @@
+=======================================
+ A Priori Ananlysis
+=======================================
+Done before actual implementaion in theoritical language | Approx Ananlysis
+
+=======================================
+ Posterior Ananlysis
+=======================================
+Done after actual implementaion and execution of algorithm | Actual Ananlysis accurate space and time
+
+
+------------Order of Magnitude--------------
+1<logn<n<nlogn<n^2<n^3<2^n
+
+nlogn at n=1 is exception
+
+Big O | worst/upperbound | time will not exceed
+Big Omega | Best case 
+Big Theta | Average case
