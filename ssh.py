@@ -1,7 +1,7 @@
 import os
 response = int(input('Enter which server you want to acces | 1 for Adh and 2 for Oracle'))
 if response == 1:
-    host ="152.67.2.27"
+    host ="152.67.2.27" 
     user="ubuntu"
     X=r"C:\Users\krite\Downloads\ssh-key-2022-07-30.key"
 elif response == 2:
