@@ -1,0 +1,19 @@
+Analysis of recursive methods:
+
+Algorithm:
+    Decide param upto input's size
+    algo basic operations 
+    best/worst Case
+    setup recurrence relation 
+    solve the recurrence relation
+
+Backward method for identifying the best case
+M(n) = M(n-1)+1
+M(n-1) = M(n-1-1) + 1
+    =M(n-2)+2
+M(n-2) = M(n-3)+3
+M(n-3) = M(n-4)+4
+    =m=(n-i) +i
+    =m(n-n)+n
+    =1+n
+    =O(n)

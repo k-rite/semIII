@@ -5,3 +5,29 @@ Gaussian Elimination
                             A[j.k]=A[j.k]-A[i.k]*A[j.i]/A[i.i]
 
 n^3 | subtraction Multiplication devision | Worst Case | C(n) C(n) C(n) | C(n^3)
+------------------------------------------------------------------------------------------------
+Binary(n)
+                    count = 1
+                    while n>1:
+                        count++
+                        n=floor(n/2)
+log(n) | Division | Average Case | C(1) C(1) C(n/2) | log(n)
+
+
+When n=7:
+    n=7, steps= 7 3.5 1 {3 steps}
+When n=8:
+    n=8, steps= 8 4 2 1 {4 steps}
+When n=11:
+    n=11, steps= 11 5.5 2.75 1 {4 steps}
+When n=16:
+    n=16, steps= 16 8 4 2 1 {5 steps}
+When n=20:
+    n=20, steps= 20 10 5 2.5 1 {5 steps}
+{Observation}
+    4<7 3 Steps
+    8<15 4 steps
+    16<31 5 steps
+(n*2) = n+1
+-------------------------------------------------------------------------------------------------
+n = 6 | 2 4
