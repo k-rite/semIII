@@ -8,7 +8,6 @@ def push(a):
     else:
         stack.append(a)
         print(stack)
-
 def pop(a):
     print(stack)
     while a in stack:
@@ -28,9 +27,8 @@ while True:
         pop(value)
     elif response == 2:
         push(value)
-# push(5)
-# push(4)
-# push(6)
-# push(7)
-# pop(5)
-1
+push(5)
+push(4)
+push(6)
+push(7)
+pop(5)
