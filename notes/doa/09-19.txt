@@ -1,0 +1,2 @@
+BFS | Breadwise 
+1st moves horiozontall check all nodes then/ 
