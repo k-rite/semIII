@@ -1,0 +1,10 @@
+Kruskal Algorithm
+spanning trees by adding edge by edge into a growing spanning tree 
+It follows greedy approach
+
+MST - Minnimum Spanning Tree
+
+Algorithm
+Sort the Graph in non decreasing order by the weight.
+Start adding edge to the MST from edge with smallest weight untill the edge of largest edge
+Only add edges which doesn't form a cycle, edge which connect only disconnected components
