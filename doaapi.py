@@ -1,4 +1,5 @@
 from flask import Flask, jsonify
+from math import pow
 app= Flask(__name__)
 @app.route('/v1/<string:name>/bubble', methods=['GET'])
 def bubble(name):

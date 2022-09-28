@@ -41,3 +41,95 @@ def calsum(a2):
 O(1) O(n) O(n) O(1) -> Quadratic O(n^2)
 
 -------------------------
+Big O notation | Array,push and pop,enqueue and dequeue  
+__________________________________________________________
+for(i=0;i<=n;i++):   O(n)
+    {
+        C=A+B        O(1)
+    }
+O(n) | linear  
+-----------------
+for (i=0;i<=n;i++)          O(n)
+    for (j=0;j<=n;j++)      O(n)
+        {c=a+b}             O(1)
+
+O(n) O(n) O(1)
+O(n^2) | Quadratic 
+-----------------
+long SumMN(int n,int m)
+{
+    long sum=0;
+    for (int x=1;x<n;x++)
+    {
+        for(int y=1;y<m;y++)
+        {
+            sum+=x*y;
+        }
+    }
+}
+Linear 
+----------------
+x=n             O(n)
+while (x>0) {
+    x=x-1       O(1)
+}
+O(n) O(1)
+Linear 
+-------------------
+int FindMaxelement(int[] Array)
+{
+    int max=int.MinValue;
+    for (int i=1;i<array.length;i++) {              O(n)
+        if(array[i]>max){
+            max=array[i];                           O(1)
+        }
+        }
+return max;
+}
+if statement true -> O(n)
+without if statement -> O(1)
+------------------ 
+int finalversion(int[] Array)
+for(int i=0;i<array.Length-1;i++)                         {depends upon length}
+{
+    for (int j=1;j<array.Length;j++)                      {depends upon array}
+    {
+        if (array[i]>array[j])
+        {
+            inversions++;
+        }
+    }
+    return inversions;
+}
+
+True: O(n^2)
+------------------
+longsum(int n)
+for(int a=1;a<n;a++)
+{
+    for (int b=1;b<n;b++)
+{
+    for (int c=1;c<n;c++)
+{
+    sum+=a*b*c;
+}
+}
+return sum;
+}
+
+O(n^3)
+---------------- 
+Logarithmic Time | O(logn) | Binary Search
+Time excution = Logarithmic Input size
+
+if N input is doubled then, output is increased by 1
+ -> log10(100)=2
+
+ O(n*log(n)) 
+ ==================================================
+Exponential:
+O(2^n),O(N!),O(N^k)
+log > linear
+
+Selection | Insertion | Bubble | Quick 
+Merge | Bucket | Radix

@@ -1,0 +1,21 @@
+BFS | Breadwise 
+1st moves horiozontall check all nodes then/ 
+
+Kruskal Algorithm
+spanning trees by adding edge by edge into a growing spanning tree 
+It follows greedy approach
+
+MST - Minnimum Spanning Tree
+
+Algorithm
+Sort the Graph in non decreasing order by the weight.
+Start adding edge to the MST from edge with smallest weight untill the edge of largest edge
+Only add edges which doesn't form a cycle, edge which connect only disconnected components
+
+
+ 
+Step 1: Sort all edges in increasing order of their edge weights.
+Step 2: Pick the smallest edge.
+Step 3: Check if the new edge creates a cycle or loop in a spanning tree.
+Step 4: If it doesn’t form the cycle, then include that edge in MST. Otherwise, discard it.
+Step 5: Repeat from step 2 until it includes checks all nodes in MST.

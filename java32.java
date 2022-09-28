@@ -4,12 +4,13 @@ import java.awt.event.*;
 class calculator extends JFrame implements ActionListener {
   JPanel jp;
   JButton clear, addbt,enter,multiply,subtraction,division;
-  JLabel Result;
+  JLabel Result,Instructions;
     JTextField textarea;
   public calculator(String s) {
     super(s);
     jp = new JPanel();
-    Result = new JLabel("Result is");
+    Instructions = new JLabel("Instructions : Enter a number in the text box, choose a operation, enter the next number, if you wish to see the result hit enter, else select next operation and enter next number.");
+    Result = new JLabel("             Result is");
     enter = new JButton("Enter");
     addbt = new JButton("Add");
     multiply = new JButton("multiply");
@@ -31,16 +32,16 @@ class calculator extends JFrame implements ActionListener {
     jp.add(division);
     jp.add(clear);
     jp.add(Result);
+    jp.add(Instructions);
     add(jp);
   }
   /* (non-Javadoc)
  * @see java.awt.event.ActionListener#actionPerformed(java.awt.event.ActionEvent)
  */
 
-public static int b=0;
+public static int b=0;//------------------------ Taking a variable outside the actionPerformed to store the value
 public void actionPerformed(ActionEvent e) {
     String cmd = e.getActionCommand();
-    System.out.println(cmd);
     switch(cmd){
         case "Add":
         int add = Integer.parseInt(textarea.getText());
@@ -74,7 +75,6 @@ public void actionPerformed(ActionEvent e) {
         break;
     }
     Result.setText("Result is"+b);
-      System.out.println(cmd);
     }
     public static void main(String args[]) {
     JFrame jf = new calculator("Ultra Pro Max Calculator");
