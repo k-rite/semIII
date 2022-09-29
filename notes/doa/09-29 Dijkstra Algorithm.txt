@@ -1,0 +1,10 @@
+Dijkstra Algorithm 
+
+Finding the shortest path from starting node to target node in a weighted graph
+uses weights of the edged for msp
+single source shortest path
+
+Algorithm:
+
+
+Mark the source node
