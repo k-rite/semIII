@@ -1,0 +1,10 @@
+
+Reverse Engineering                 
+The a process of back tracing and analysing the software about it's details is called Reverse Engineering.
+Example: 
+Testing a software by checking it's components and APIs one by one
+
+Forward Engineering
+Process of Renovation and Reclaiming of a software from the previous data and doing the development is called Forward Engineering
+Example:
+Recoding UNIX in C from Assembly language and using the data from the reverse Engineering.

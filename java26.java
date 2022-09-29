@@ -61,3 +61,6 @@ public class java26 {
         }
     }
 }
+for i in list:
+    if i not in array:
+        array.append(i)
