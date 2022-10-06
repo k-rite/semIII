@@ -3,9 +3,7 @@ Brute Force | O(mn)/O(n*m)
 Divide and Conquer | Merge, Binary 
 Greedy Technique | input -> min or max 
 Dynamic Programming | Bottom up | Fibonacci Series | Knapsack
-Branch and Bound | finds all solutions then picks the best 1 | Interview
+Branch and Bound | finds all solutions then picks the best 1 | Interview --- J tree ---
 Randomised Algorithm 
 Backtracking Algorithm | every possible combination to solve computational problem
-
-N Queen Problem | PLace Queens on chess board such a way no queen can attack |
-
+    N Queen Problem | PLace Queens on chess board such a way no queen can attack 
