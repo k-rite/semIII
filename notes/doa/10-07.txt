@@ -9,3 +9,4 @@ Profit / Weight = 5,1,3,1,6,4,3
 
 - self attempt:
 6[4kg],1[2kg],3[5kg],5[1kg],2[3kg] = 18+10+15+6+5 - 54 PROFIT
+
