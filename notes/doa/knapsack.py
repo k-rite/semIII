@@ -1,4 +1,4 @@
-profit,weight,cap=[24,18,18,10],[24,10,10,7],25
+profit,weight,cap=[10,10,12,18],[],25
 bag,value,calweight,c,calprofit=[],[],0,0,0
 for z in range(0,len(weight)):value.append(profit[z]/weight[z])
 priority= sorted(value, reverse=True)

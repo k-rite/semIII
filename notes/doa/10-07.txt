@@ -2,11 +2,22 @@ Knapsack Problem
 Bagpacking | list - weight nd value | maximise profit with min weight in capacity
 0/1 Knapsack Problem | Dynamic,Branch bound,Backtracking | 0-keeping it, 1-Not keeping it | 
 Fractional knapsack problem | Greedy Approach | Keeping Certain Fraction part - Sugar | 
-
 Cap(15kg)
 Profit / Weight = 5,1,3,1,6,4,3
 5[1kg]+1[2kg]+6[4kg],7[1kg]+3[5kg]+2[3kg]= 6+2+18+3+15+5 - 49 Profit 
-
 - self attempt:
 6[4kg],1[2kg],3[5kg],5[1kg],2[3kg] = 18+10+15+6+5 - 54 PROFIT
 
+
+Representation of graphs:
+Adjacency Matrix
+Adjacency List
+
+Time complexity, Mathematical Analysis of Recursive or non recursive, 
+graphs, Algorithm design, bfs dfs, 
+
+
+15kg
+5,2.5,2,2
+
+1,3,,
