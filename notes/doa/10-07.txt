@@ -17,7 +17,8 @@ Time complexity, Mathematical Analysis of Recursive or non recursive,
 graphs, Algorithm design, bfs dfs, 
 
 
-15kg
-5,2.5,2,2
+Non Recursive
+Algorithm factorial(n)
+if n=0 return 1
+else return factorial(n-1)*n
 
-1,3,,

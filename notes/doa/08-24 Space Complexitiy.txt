@@ -6,7 +6,6 @@ Memory used by program including input value for execution
 Memory | Variables, Program intructions | Function calls/execution
 
 Auxiliary | Temp space like def()
-
 Constant Space | Variable r constant array len is fixed
 Linear Space | space depends on variable input value array len isn't fixed
 

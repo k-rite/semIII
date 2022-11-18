@@ -19,3 +19,7 @@ Step 2: Pick the smallest edge.
 Step 3: Check if the new edge creates a cycle or loop in a spanning tree.
 Step 4: If it doesn’t form the cycle, then include that edge in MST. Otherwise, discard it.
 Step 5: Repeat from step 2 until it includes checks all nodes in MST.
+
+
+edge = n-1 
+n = num of nodes/vertexes

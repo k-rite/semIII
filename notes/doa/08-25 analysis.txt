@@ -15,5 +15,5 @@ Done after actual implementaion and execution of algorithm | Actual Ananlysis ac
 nlogn at n=1 is exception
 
 Big O | worst/upperbound | time will not exceed
-Big Omega | Best case 
-Big Theta | Average case
+Big Omega | Best case  | lower bound
+Big Theta | Average case | 

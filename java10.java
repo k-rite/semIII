@@ -1,3 +1,4 @@
+import java.util.*;
 class PassArray {
     public int sumNumbers(int nums[]) {
         int sum = 0;
@@ -13,6 +14,7 @@ class PassArray {
             n[i] = Integer.parseInt(args[i]);
 
         }
+        System.out.println(Arrays.toString(n));
         PassArray ob = new PassArray();
         int s = ob.sumNumbers(n);
         System.out.println("Sum of number" + s);

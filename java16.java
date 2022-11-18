@@ -6,6 +6,7 @@ class Static_E {
     }
     public static void incc() { 
         c++;
+
         // System.out.println(a+"\t"+b+"\t"+c);
     }
 }
